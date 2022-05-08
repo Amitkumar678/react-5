@@ -1,0 +1,99 @@
+.App{
+    background-image: linear-gradient(powderblue,#F195D2,#EAE5E9 );
+    width: 100%;
+    height: 615px;
+    margin: 0px;
+    padding: 0px;
+}
+.navbtn{
+    background-color: #0D18AA;
+    font-size: 25px;
+    position: relative;
+    top: -25px;
+}
+.navbtn ul{
+    display: flex;
+     list-style: none; 
+     justify-content: space-between
+}
+.navbtn ul li{
+    text-decoration: none;
+    list-style: none;
+    padding: 20px 8px 20px 8px;
+}
+.addstudent1{
+    background-color: #EAE5E9;
+    padding: 15px;
+    margin-bottom: 40px;
+    margin-top: -60px;
+    margin-right: -2px;
+    border-radius: 25px;
+    height: 30px;
+    float: right;
+}
+
+#student-btn{
+    float: right;
+    width: 200px;
+    height: 50px;
+    padding: 15px;
+    font-size: 20px;
+    background-color: aquamarine;
+    border: 1px solid black;
+    border-radius: 20px;
+    position: relative;
+    top: -50px;
+}
+
+.input-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.input-container1{
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-around;
+}
+
+.containertable{
+    margin: 30px;
+}
+
+.main_container{
+display: flex;
+justify-content: space-evenly;
+}
+
+
+.input{
+    background-color: aqua;
+    border-radius: 15px;
+    border: 1px solid black;
+
+}
+
+.btn-container{
+    display: flex;
+    position: relative;
+    left: 500px;
+    margin: 20px;
+}
+.cancel-btn{
+    width: 100px;
+    height: 50px;
+    background-color: tomato;
+    padding: 10px;
+    border-radius: 12px;
+    font-size: 15px;
+    margin: 15px;
+}
+.submit-btn{
+    width: 100px;
+    height: 50px;
+    background-color: green;
+    padding: 10px;
+    border-radius: 12px;
+    font-size: 15px;
+    margin: 15px; 
+}

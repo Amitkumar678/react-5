@@ -4,10 +4,9 @@ import Header from './Component/Header'
 import Home from './Component/Home';
 import Student from './Component/Student';
 import Contect from './Component/Contect';
-import './Component/style.css'
-import Edit from './Component/Edit';
-import AddStudent from './Component/AddStudent';
+import './style.css'
 import {StudentContext} from './Component/StudentContext'
+import Studentsdesc from './Component/Studentsdesc';
 
 function App() {
   return (
@@ -20,8 +19,8 @@ function App() {
         <Route path='/home' element={<Home />}/>
         <Route path='/student' element={<Student />}/>
         <Route path='/contect' element={<Contect />}/>
-        <Route path='/student/:id' element={<Edit />}/>
-        <Route path='/addstudent' element={<AddStudent />}/>
+        <Route path='/studentsdesc' element={<Studentsdesc />}/>
+        <Route path='/studentsdesc/:id' element={<Studentsdesc />}/>
       </Routes>
 
       </StudentContext>
